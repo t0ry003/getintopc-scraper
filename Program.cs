@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Scraper
 {
-    class Program
+    class scrap
     {
         static void Main(string[] args)
         {
@@ -14,6 +10,7 @@ namespace Scraper
             string welcome_msg = "getintopc.com - webscrapper";
             Console.SetCursorPosition((Console.WindowWidth - welcome_msg.Length) / 2, Console.CursorTop);
             Console.WriteLine(welcome_msg);
+
 
             HtmlAgilityPack.HtmlWeb web = new HtmlAgilityPack.HtmlWeb();
             HtmlAgilityPack.HtmlDocument pages = web.Load("https://getintopc.com/");
