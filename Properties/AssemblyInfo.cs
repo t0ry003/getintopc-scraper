@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("getintopc-scraper")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Easy software list scraper")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Rares Olteanu")]
 [assembly: AssemblyProduct("getintopc-scraper")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
